@@ -1,0 +1,72 @@
+@media all and (max-width: 640px) {
+
+    .sec_title {
+        padding: 25px 0;
+    }
+
+    main section{
+        padding-top: 70px;
+    }
+
+    main section:last-of-type{
+        padding-bottom: 30px;
+    }
+
+    #about .contents {
+        display: block;
+    }
+    #about .about_img {
+        width: 50%;
+        margin: 0 auto;
+    }
+    #about .about_img .pc_img {
+        display: none;
+    }
+    #about .about_img .sp_img {
+        display: block;
+        border-radius: 50%;
+    }
+    #about .description {
+        width: 100%;
+        padding: 20px 0 10px;
+    }
+    #skills .row {
+        display: block;
+    }
+    #skills .row .skill {
+        width: 100%;
+    }
+    #skills .row .description {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+    #certification .contents {
+        display: block;
+        margin: 0;
+    }
+    #certification .box {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #certification .cert_title {
+        font-size: 18px;
+        height: initial;
+        padding: 30px 0 10px;
+    }
+    
+    #certification img {
+        width: 25%;
+    }
+
+    #works .work {
+        display: block;
+        padding: 30px 0;
+    }
+
+    #works .thumb_wrap {
+        width: 100%;
+    }
+}

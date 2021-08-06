@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.body-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+main {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: blue;
+    padding: 50px;
+    margin: 100px;
+}
+
+.article {
+    background-color: white;
+    width: 500px;
+    padding: 0 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.next {
+    width: 100%;
+    background-color: red;
+    height: 50px;
+}

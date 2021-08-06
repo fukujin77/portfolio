@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* メイン */
+
+body{
+    display: none;
+}
+
+main {
+    max-width: 1350px;
+    width: 100%;
+    padding: 125px 2% 125px;
+    margin: 0 auto;
+}
+
+.detail{
+    max-width: 880px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.title {
+    padding-bottom: 50px;
+}
+
+.detail {
+    max-width: 600px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.companyInfo table{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.companyInfo table tr {
+    padding: 25px 0;
+}
+
+.companyInfo table p{
+    padding: 25px 0;
+}
+
+.companyInfo table tr+tr {
+    border-top: 1px solid rgb(187, 187, 187);
+}
+
+.companyInfo table li{
+    padding: 2px 0;
+}
+
+.companyMap{
+    max-width: 600;
+    width: 100%;
+    filter: grayscale(1);
+}

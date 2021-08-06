@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.alink {
+    border-bottom: 1px solid #333333;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 14px;
+    transition: border-bottom 0.3s;
+}
+
+.alink:hover {
+    border-bottom: 1px solid #fff;
+    ;
+}
+
+body {
+    color: #333;
+    font-size: 1rem;
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+
+/* ヘッダー */
+
+header {
+    width:100%;
+    background-color: #fff;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+header .container {
+    margin: 25px 0 0;
+}
+
+header .wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .logo {
+    font-size: 23px;
+    margin-bottom: 23px;
+}
+
+header nav {
+    background-color: #333333;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    color: white;
+    padding: 13px 0;
+    margin: 0 -27px;
+}
+
+header li {
+    margin: 0 27px;
+    font-size: 15px;
+}
+
+header a{
+    color: #fff;
+}
+
+.dummy{
+    width: 15px;
+    height: 1px;
+    display: inline-block;
+}
+/* メイン */
+
+main {
+    margin: 0 auto;
+    padding-top: 145px;
+    max-width: 1200px;
+    margin-bottom: 140px;
+}
+
+main .container {
+    margin: 25px 15px 0;
+}
+
+.thumb {
+    display: flex;
+    margin-bottom: 60px;
+    line-height: 25px;
+    margin: 0 -13px;
+}
+
+.thumb .box {
+    width: 33.33333%;
+    margin: 0 13px;
+}
+
+.thumb .box img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.thumb .box img::before {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: 75%
+}
+
+.thumb .box p {
+    font-weight: bold;
+}
+
+.thumb .box .anchr {
+    color: #333333;
+    margin: 25px auto;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.wrap_conten {
+    display: flex;
+}
+
+/* サイドバー */
+
+aside {
+    margin: 0 20px;
+    width: 33.3333%;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.innerLink{
+    margin-top:-145px;
+    padding-top:145px;
+}
+
+.prof {
+    text-align: center;
+}
+
+.prof img {
+    width: 128px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.sise_title {
+    margin: 45px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sise_detail {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.ranking img {
+    width: 100%;
+    margin: 40px 0 5px;
+}
+
+.archive_contents {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    font-size: 13px;
+}
+
+.archive_contents:first-of-type {
+    border-top: 1px solid gray;
+}
+
+/* コンテンツ */
+
+.contents {
+    width: 66.66666%;
+    margin-right: 22px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.contents h2 {
+    font-size: 23px;
+}
+
+.contents .date, .category {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.contents .date {
+    margin-right: 25px;
+}
+
+.contents .box img {
+    width: 100%;
+}
+
+.contents .text {
+    margin: 20px 40px 0;
+}
+
+.contents .anchr {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contents .box+.box {
+    margin-top: 90px;
+}
+
+/* フッター */
+
+footer {
+    background-color: #F7F7F7;
+}
+
+footer .footer-inner {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 500px;
+}
+
+footer .container {
+    margin: 25px 15px 0;
+    display: flex;
+}
+
+footer .container>div {
+    width: 33.33333%;
+}
+
+footer .container>div+div {
+    margin-left: 60px;
+}
+
+footer .title {
+    margin: 60px 0 40px;
+    font-weight: bold;
+}
+
+footer .introduce {
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer .prof_nav {
+    font-size: 14px;
+}
+
+footer .prof_nav li {
+    margin-bottom: 15px;
+}
+
+footer .menu_nav li {
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}
+
+footer .menu_nav li:first-child {
+    border-top: 1px solid gray;
+}
+
+footer .twitter {
+    height: 320px;
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* メイン */
+
+main {
+    max-width: 1350px;
+    width: 100%;
+    padding: 125px 2% 125px;
+    margin: 0 auto;
+}
+
+.title{
+    padding-bottom: 50px;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-bottom: 50px;
+}
+
+.detail .image{
+    width: 55%;
+    margin-right: 66px;
+}
+
+.detail img{
+    width: 100%;
+}
+
+.detail .description{
+    width: 45%;
+}
+
+.detail .description{
+    font-size: 15px;
+    line-height: 21px;
+
+}
+
+.detail .description p{
+    padding-bottom: 30px;
+}
+
+.detail .material{
+    display: flex;
+}
+
+.detail .material .key{
+    padding-right: 30px;
+}
+
+
+.back{
+    text-align: center;
+}
+
+.back a{
+    transition: opacity 0.5s;
+}
+
+.back a:hover{
+    opacity: 0.5;
+}

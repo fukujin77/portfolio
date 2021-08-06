@@ -1,0 +1,14 @@
+@media all and (max-width: 880px) {
+    .companyInfo td {
+        display: inline;
+    }
+
+    .companyInfo table p{
+        padding: 20px 0 10px 0;
+    }
+
+    .companyInfo table tr{
+        height: 80px;
+    }
+
+}

@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* メイン */
+
+body{
+    display: none;
+}
+
+main {
+    max-width: 1350px;
+    width: 100%;
+    padding: 125px 2% 125px;
+    margin: 0 auto;
+}
+
+main .wrap_box {
+    width: 100%;
+    padding-top: 40px;
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .box {
+    width: 25%;
+    padding: 0 10px 50px 10px;
+}
+
+main .box .productImg {
+    /* width: 295px;
+    height: 295px; */
+    width: 100%;
+    transition: opacity 0.5s;
+}
+
+main .box .productImg:hover {
+    opacity: 0.7;
+}
+
+main .box .description {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+main .box .description p {
+    padding-top: 5px;
+}
+
+
+.hideProduct {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ishide {
+    width: 100%;
+    display: none;
+}
+
+main .viewMore {
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0 0;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+main .viewMore:hover {
+    opacity: 0.7;
+}
+
+/* フッター */
+
+footer {
+    max-width: 1350px;
+    width: 100%;
+    padding: 0 2% 20px;
+    margin: 0 auto;
+}
+
+footer ul {
+    display: flex;
+    margin: 0 -10px
+}
+
+footer li {
+    margin: 0 10px;
+    transition: opacity 0.5s;
+}
+
+footer li:hover {
+    opacity: 0.7;
+}
+
+.otherProduct{
+    /* display: none; */
+}
+
+.otherProduct ul {
+    display: flex;
+    align-items: center; /*上下中央*/
+    justify-content: center; /*左右中央*/
+}
+
+.otherProduct li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(187, 187, 187);
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px;
+    transition: opacity 0.5s;
+}
+
+.otherProduct .displayed{
+    pointer-events : none;
+    background-color: rgb(187, 187, 187);
+}
+

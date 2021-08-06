@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+    display: none;
+}
+
+/* メイン */
+
+main {
+    max-width: 1350px;
+    width: 100%;
+    padding: 125px 2% 125px;
+    margin: 0 auto;
+}
+
+.title{
+    padding-bottom: 50px;
+}
+
+.detail{
+    max-width: 800px;
+    width: 100%;
+    padding: 0 10px;
+    padding-bottom: 50px;
+}
+
+.detail p {
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 50px;
+}
+
